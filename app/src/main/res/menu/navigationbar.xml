@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="HardcodedText">
+
+    <item
+        android:id="@+id/nav_Profile"
+        android:title="પ્રોફાઇલ" />
+
+    <item
+        android:id="@+id/nav_AllComplain"
+        android:title="કુલ ફરિયાદ" />
+
+    <item
+        android:id="@+id/nav_AMC"
+        android:title="AMC" />
+    <item
+        android:id="@+id/nav_Bill"
+        android:title="બિલ" />
+
+    <item
+        android:id="@+id/nav_Rating"
+        android:title="રેટિંગ" />
+
+</menu>

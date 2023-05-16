@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6d2d4db5-4a54-4171-b97f-5073ecb09a98" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Example-sources.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Notification_Api_Source/com/notification/Data.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Notification_Api_Source/com/notification/Example.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/add_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/add_task.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allIcon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/amc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/amc_class-API.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/amc_class-API/com/amc_exa/AmcClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/amc_class-API/com/amc_exa/AmcDateCheck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/google-services.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/cms/AMC_Expire.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/cms/CheckInAlarmReceiver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/cms/FooRequest1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/cms/MyFirebaseMessagingService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/cms/NotificationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/cms/Splash_Screen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/cms/adapter/amc_recycler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/cms/adapter/complete_recycler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/cms/adapter/pendingbill_Adapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/cms/adapter/review_recycler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/cms/amc_exa/AmcClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/cms/amc_exa/AmcDateCheck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/cms/complaint/ComComplaint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/cms/complaint/Datum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/cms/complaint/EndComplaintLocation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/cms/complaint/StartComplaintLocation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/cms/complete_com.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/cms/edit_profile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/cms/machien_problem/Data.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/cms/machien_problem/Example.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/cms/machien_problem/MachineProblem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/cms/notification/Data.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/cms/notification/Example.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/cms/partsDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/cms/party_details/MachineNo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/cms/pending_bill.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/cms/pending_bills/Datum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/cms/pro/PartyProfile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/cms/pro/ProfileData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/cms/profile_activity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/cms/rating_put/EndComplaintLocation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/cms/rating_put/Example.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/cms/rating_put/PartyCompaintDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/cms/rating_put/StartComplaintLocation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/cms/reviewData/Datum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/cms/reviewData/EndComplaintLocation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/cms/reviewData/ReviewData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/cms/reviewData/StartComplaintLocation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/cms/review_activity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/cms/taskadd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/cms/totmachine_Details.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/add_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/add_task.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/amc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/city_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/complaint.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/dash_totmachine.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/done_rating.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/edi_pro_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/logosparrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/my_border.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/phone_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/pro_image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/profile_photo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/rating_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/reviewcomplaint.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/totmachine_dashboard_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_amc_expire.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_complete_com.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_edit_profile.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_parts_details.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_pending_bill.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_review.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_splash_screen.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_taskadd.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_totmachine_details.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/image_partsdetails.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/image_pendingbill.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/image_review.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/list_item.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/progress_dialog.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/rating_bar_layout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/refs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/city_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/example/Data.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/example/Example.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/example/MachineProblem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com_complaint-sources_Api.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com_complaint-sources_Api/com/complaint/ComComplaint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com_complaint-sources_Api/com/complaint/Datum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com_complaint-sources_Api/com/complaint/EndComplaintLocation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com_complaint-sources_Api/com/complaint/StartComplaintLocation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/complaint.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/done_rating.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/edi_pro_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/machine-problem-api..zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/machine-problem-api/com/example/Data.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/machine-problem-api/com/example/Example.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/machine-problem-api/com/example/MachineProblem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pending-bills.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pending-bills/com/pending_bills/Datum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pending-bills/com/pending_bills/Example.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pending-bills/com/pending_bills/PartsDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phone_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pro_class-Api/com/profile_exa/PartyProfile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/profile_Data-sources.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/profile_photo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rating icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rating-sources.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rating-sources/com/rating_put/EndComplaintLocation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rating-sources/com/rating_put/Example.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rating-sources/com/rating_put/PartyCompaintDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rating-sources/com/rating_put/StartComplaintLocation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/review-api.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/review-api/com/example/Datum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/review-api/com/example/EndComplaintLocation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/review-api/com/example/Example.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/review-api/com/example/StartComplaintLocation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/review_data-sources.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/review_data-sources/com/reviewData/Datum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/review_data-sources/com/reviewData/EndComplaintLocation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/review_data-sources/com/reviewData/ReviewData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/review_data-sources/com/reviewData/StartComplaintLocation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reviewcomplaint.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sparrow_img.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/totmachine_dashboard_icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Profile_API/com/profile/PartyProfile.java" beforeDir="false" afterPath="$PROJECT_DIR$/profile_Data-sources/com/pro/PartyProfile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Profile_API/com/profile/Profile.java" beforeDir="false" afterPath="$PROJECT_DIR$/profile_Data-sources/com/pro/ProfileData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/cms/FooRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/cms/FooRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/cms/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/cms/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/cms/Panding_complaint/pandingComplaintdetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/cms/Panding_complaint/pandingComplaintdetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/cms/Party_machine_details.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/cms/Profile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/cms/RetrofitApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/cms/RetrofitApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/cms/adapter/Profile_recycler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/cms/adapter/add_recycler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/cms/adapter/complaint_recycler.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/cms/adapter/complaint_recycler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/cms/adapter/panding_Adapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/cms/adapter/panding_Adapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/cms/adapter/tot_recycler.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/cms/adapter/tot_recycler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/cms/add_complain/AddExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/cms/pending_bills/Example.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/cms/add_complain/addcomplaint.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/cms/add_complaint.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/cms/api.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/cms/api.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/cms/dashboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/cms/dashboard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/cms/model/Example.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/cms/model/Example.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/cms/model/homedata.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/cms/model/homedata.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/cms/panding_complaint.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/cms/panding_complaint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/cms/party_complaint_Details.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/cms/party_complaint_Details.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/cms/party_details/MDExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/cms/party_details/MDExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/cms/party_details/PartyMachineDetail.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/cms/party_details/PartyMachineDetail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/cms/profile/PartyProfile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/cms/profile/Profile.java" beforeDir="false" afterPath="$PROJECT_DIR$/pro_class-Api/com/profile_exa/ProClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/complaint.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/image_radiuse.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/machineicon.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/machineicon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/profile_image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_add_complaint.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_dashboard.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_dashboard.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_panding_complaint.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_panding_complaint.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_party_complaint_details.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_party_complaint_details.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_party_machine_details.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_profile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_profile.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/image_add.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/image_completed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/image_complaint.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/image_complaint.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/image_machine.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/image_machine.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/image_panding.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/image_panding.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/image_profile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/image_amc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values-night/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/complaint.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/machineicon.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/machineicon.png" beforeDir="false" afterPath="$PROJECT_DIR$/machineicon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/profile_image.png" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="resourceFile" />
+        <option value="Class" />
+        <option value="layoutResourceFile" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="2PHSWNVPp6DRcQAcVm27PaUciiC" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "cidr.known.project.marker": "true",
+    "com.google.services.firebase.aqiPopupShown": "true",
+    "last_directory_selection": "D:/ANDROID/project/CMS/app/src/main/res/drawable",
+    "last_opened_file_path": "D:/ANDROID/project/CMS",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ANDROID\project\CMS\app\src\main\java\com\example\cms" />
+      <recent name="D:\ANDROID\project\CMS\app\src\main\java\com\example\cms\adapter" />
+      <recent name="D:\ANDROID\project\CMS\app\src\main\res\menu" />
+      <recent name="D:\ANDROID\project\CMS\app\src\main\res\drawable" />
+    </key>
+    <key name="android.template.163746484">
+      <recent name="com.example.cms" />
+    </key>
+    <key name="android.template.685302336">
+      <recent name="com.example.cms" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="SpprowComplaint.app.main" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="ALWAYS_INSTALL_WITH_PM" value="false" />
+      <option name="CLEAR_APP_STORAGE" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="INSPECTION_WITHOUT_ACTIVITY_RESTART" value="false" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Java/Kotlin Method Sample (legacy)" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6d2d4db5-4a54-4171-b97f-5073ecb09a98" name="Changes" comment="" />
+      <created>1683112544461</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1683112544461</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+  </component>
+</project>

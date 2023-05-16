@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/purple_200"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="10dp"
+    android:layout_margin="10dp">
+    <LinearLayout
+        android:id="@+id/cdata"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:background="#B4B7EA"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/Biil_ID"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="3dp"
+            android:text=""
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/CMD_ID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="3dp"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="16dp" />
+
+        <TextView
+            android:padding="3dp"
+            android:textColor="@color/black"
+            android:id="@+id/MachineNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/MachineType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="3dp"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/partsDetails"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="3dp"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:visibility="gone"/>
+
+        <TextView
+            android:padding="3dp"
+            android:textColor="@color/black"
+            android:id="@+id/isPaymentsStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="16dp" />
+
+        <TextView
+            android:padding="3dp"
+            android:textColor="@color/black"
+            android:id="@+id/createAt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="16dp" />
+
+        <TextView
+            android:padding="3dp"
+            android:textColor="@color/black"
+            android:id="@+id/upadateAt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="16dp" />
+        <TextView
+            android:padding="3dp"
+            android:textColor="@color/black"
+            android:id="@+id/mainTotal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="16dp" />
+
+        <TextView
+            android:padding="3dp"
+            android:textColor="@color/teal_700"
+            android:id="@+id/partsdetails"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Parts Details"
+            android:gravity="end"
+            android:paddingEnd="10dp"
+            android:textSize="18dp"/>
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>
