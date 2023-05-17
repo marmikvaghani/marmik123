@@ -86,8 +86,6 @@ public interface api {
     @FormUrlEncoded
     Call<com.example.cms.pending_bills.Example> getpendingbill(@Field("name") String name);
 
-    @POST("party-apk-api/pending_parts_bill")
-    @FormUrlEncoded
-    Call<com.example.cms.pending_bills.Example> getpartsdetails(@Field("name") String name);
+
 
 }

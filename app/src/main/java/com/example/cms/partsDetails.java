@@ -1,8 +1,11 @@
+
 package com.example.cms;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.RequiresApi;
+import androidx.appcompat.app.ActionBarDrawerToggle;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -13,10 +16,19 @@ import android.content.SharedPreferences;
 import android.os.Build;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.MenuItem;
+import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.cms.adapter.TargetRecyclerViewAdapter;
+import com.example.cms.adapter.partsdetails_recycler;
+import com.example.cms.adapter.pendingbill_Adapter;
+import com.example.cms.pending_bills.Datum;
+import com.example.cms.pending_bills.Datum.PartsDetail;
 import com.example.cms.pending_bills.Example;
+
+import java.util.List;
 
 import retrofit2.Call;
 import retrofit2.Callback;
@@ -24,96 +36,150 @@ import retrofit2.Response;
 
 public class partsDetails extends AppCompatActivity {
 
-    String name;
+    public DrawerLayout drawerLayout;
+    public ActionBarDrawerToggle actionBarDrawerToggle;
+    //bill_detalis bill_detalis;
+    partsdetails_recycler pcRecycler;
 
+    TargetRecyclerViewAdapter image_partsdetails;
+    String name;
     RecyclerView rv_list;
-    TextView textView,nameparts1,nameparts2,nameparts3,nameparts4,nameparts5,nameparts6;
+    TextView textView;
     @RequiresApi(api = Build.VERSION_CODES.N)
     @SuppressLint({"MissingInflatedId", "ResourceType", "WrongViewCast"})
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_parts_details);
-        textView = findViewById(R.id.partsdetails);
+        textView = findViewById(R.id.billpannel);
         getSupportActionBar().setTitle("Parts Details");
+
+        drawerLayout = findViewById(R.id.my_drawer_layout_machine);
+        actionBarDrawerToggle = new ActionBarDrawerToggle(this, drawerLayout, R.string.nav_open, R.string.nav_close);
+
+        // pass the Open and Close toggle for the drawer layout listener
+        // to toggle the button
+        drawerLayout.addDrawerListener(actionBarDrawerToggle);
+        actionBarDrawerToggle.syncState();
+
+        // to make the Navigation drawer icon always appear on the action bar
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         SharedPreferences sharedPref = getSharedPreferences("MyPrefs", Context.MODE_PRIVATE);
 
         name = sharedPref.getString("username", "");
-        rv_list = findViewById(R.id.crv_list);
 
-        nameparts1 = findViewById(R.id.nameparts1);
-        nameparts2 = findViewById(R.id.nameparts2);
-        nameparts3 = findViewById(R.id.nameparts3);
-        nameparts4 = findViewById(R.id.nameparts4);
-        nameparts5 = findViewById(R.id.nameparts5);
-        nameparts6 = findViewById(R.id.nameparts6);
+
+    //    rv_list = findViewById(R.id.partsdetailsactivty);
 
         Intent intent = getIntent();
-        String str1 = intent.getStringExtra("name1");
-        String str2 = intent.getStringExtra("name2");
-        String str3 = intent.getStringExtra("name3");
-        String str4 = intent.getStringExtra("name4");
-        String str5 = intent.getStringExtra("name5");
-        String str6 = intent.getStringExtra("name6");
+        PartsDetail partsDetail = intent.getParcelableExtra("partsDetails");
 
-        nameparts1.setText(str1);
-        String uname1 = nameparts1.getText().toString();
-        Log.d("Uname1", uname1);
+        // Get a reference to the RecyclerView in the target activity
+        RecyclerView targetRecyclerView = findViewById(R.id.partsdetailsactivty);
 
-        nameparts2.setText(str2);
-        String uname2 = nameparts2.getText().toString();
-        Log.d("Uname1", uname2);
+        // Create an instance of the target RecyclerView's adapter and set it to the RecyclerView
+        TargetRecyclerViewAdapter adapter = new TargetRecyclerViewAdapter((List<PartsDetail>) partsDetail);
+        targetRecyclerView.setLayoutManager(new LinearLayoutManager(this));
+        targetRecyclerView.setAdapter(adapter);
 
-        nameparts3.setText(str3);
-        String uname3 = nameparts3.getText().toString();
-        Log.d("Uname1", uname3);
+       // getData(name);
 
-        nameparts4.setText(str4);
-        String uname4 = nameparts4.getText().toString();
-        Log.d("Uname1", uname4);
+        //navigation
 
-        nameparts5.setText(str5);
-        String uname5 = nameparts5.getText().toString();
-        Log.d("Uname1", uname5);
+        TextView navMachinecount,navtotcompalint,navComplaintcount,navpendingcount,navcompleteComplaintCount,navreviewComplaintCount,navAmcDateCheck;
+        navMachinecount = findViewById(R.id.navmachine);
+        navtotcompalint=findViewById(R.id.navtotcompalint);
+        navComplaintcount = findViewById(R.id.navcomplain);
+        navpendingcount = findViewById(R.id.navpanding);
+        navcompleteComplaintCount = findViewById(R.id.navcomplited);
+        navreviewComplaintCount=findViewById(R.id.navreview);
+        navAmcDateCheck = findViewById(R.id.navamc);
 
-        nameparts6.setText(str6);
-        String uname6 = nameparts6.getText().toString();
-        Log.d("Uname1", uname6);
+        navtotcompalint.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(partsDetails.this, party_complaint_Details.class);
+                startActivity(i);
+            }
+        });
+        navMachinecount.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(partsDetails.this, dashboard.class);
+                startActivity(i);
+            }
+        });navComplaintcount.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(partsDetails.this, totmachine_Details.class);
+                startActivity(i);
+            }
+        });navpendingcount.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(partsDetails.this, panding_complaint.class);
+                startActivity(i);
+            }
+        });navcompleteComplaintCount.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(partsDetails.this, complete_com.class);
+                startActivity(i);
+            }
+        });navreviewComplaintCount.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(partsDetails.this, review_activity.class);
+                startActivity(i);
+            }
+        });navAmcDateCheck.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(partsDetails.this, AMC_Expire.class);
+                startActivity(i);
+            }
+        });
 
-        //  getData(name);
+
+    }
+    @Override
+    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+
+        if (actionBarDrawerToggle.onOptionsItemSelected(item)) {
+            return true;
+
+        }
+        return super.onOptionsItemSelected(item);
     }
 
+    private void getData(String name) {
 
-//    private void getData(String name) {
-//
-//        Call<Example> getlast_name = RetrofitApi.getInstance().getMyApi().getpartsdetails(name);
-//
-//        getlast_name.enqueue(new Callback<Example>() {
-//            @Override
-//            public void onResponse(@NonNull Call<Example> call, @NonNull Response<Example> response) {
-//
-//                if (response.body() != null) {
-//                    if (response.body().getStatusCode() != null) {
-//
-//                        Log.d("responsedata", String.valueOf(response.body().getData()));
-//
-//                        if (response.body().getData().size() == 0) {
-//
-//                        } else {
-//
-//
-//                        }
-//                    }
-//                }
-//            }
-//
-//            @Override
-//            public void onFailure(Call<Example> call, Throwable t) {
-//                Toast.makeText(partsDetails.this, "એક ભૂલ આવે છે", Toast.LENGTH_SHORT).show();
-//            }
-//
-//        });
-//    }
+        Call<Example> getlast_name = RetrofitApi.getInstance().getMyApi().getpendingbill(name);
 
+        getlast_name.enqueue(new Callback<Example>() {
+            @Override
+            public void onResponse(@NonNull Call<Example> call,@NonNull Response<Example> response) {
+                if (response.body() != null) {
+                    if (response.body().getStatusCode() != null) {
+
+                        Log.d("responsedata", String.valueOf(response.body().getData()));
+
+                        if (response.body().getData().size() == 0) {
+
+                        } else {
+                            pcRecycler = new partsdetails_recycler(partsDetails.this, response.body().getData());
+                            rv_list.setLayoutManager(new LinearLayoutManager(partsDetails.this));
+                            rv_list.setAdapter(pcRecycler);
+                        }
+                    }
+                }
+            }
+
+            @Override
+            public void onFailure(Call<Example> call, Throwable t) {
+                Toast.makeText(partsDetails.this, "An error occurred", Toast.LENGTH_SHORT).show();
+            }
+        });
+    }
 }

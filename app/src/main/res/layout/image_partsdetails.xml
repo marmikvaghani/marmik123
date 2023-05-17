@@ -3,103 +3,70 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="@color/purple_200"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     app:cardCornerRadius="10dp"
     app:cardElevation="10dp"
     android:layout_margin="10dp">
+
     <LinearLayout
-        android:id="@+id/partsdetail"
-        android:orientation="vertical"
         android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        android:focusable="true"
+        android:id="@+id/image_partsdetails"
         android:background="#B4B7EA"
-        android:layout_height="wrap_content">
+        android:orientation="vertical" >
 
         <TextView
-            android:id="@+id/Biil_ID"
-            android:textColor="@color/black"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:padding="3dp"
-            android:text=""
-            android:textSize="16dp" />
-
-        <TextView
-            android:id="@+id/CMD_ID"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:padding="3dp"
-            android:text=""
-            android:textColor="@color/black"
-            android:textSize="16dp" />
-
-        <TextView
-            android:padding="3dp"
-            android:textColor="@color/black"
-            android:id="@+id/MachineNumber"
+            android:id="@+id/nameparts1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text=""
-            android:textSize="16dp" />
-
-        <TextView
-            android:id="@+id/MachineType"
+            android:textSize="18dp"
+            android:textColor="@color/black" />
+      <!--  <TextView
+            android:id="@+id/nameparts2"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:padding="3dp"
+            android:layout_height="30dp"
             android:text=""
-            android:textColor="@color/black"
-            android:textSize="16dp" />
-
-
+            android:textSize="18dp"
+            android:textColor="@color/black" />
 
         <TextView
-            android:padding="3dp"
-            android:textColor="@color/black"
-            android:id="@+id/isPaymentsStatus"
+            android:id="@+id/nameparts3"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="30dp"
             android:text=""
-            android:textSize="16dp" />
+            android:textSize="18dp"
+            android:textColor="@color/black" />
 
         <TextView
-            android:padding="3dp"
-            android:textColor="@color/black"
-            android:id="@+id/createAt"
+            android:id="@+id/nameparts4"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="30dp"
             android:text=""
-            android:textSize="16dp" />
+            android:textSize="18dp"
+            android:textColor="@color/black" />
 
         <TextView
-            android:padding="3dp"
-            android:textColor="@color/black"
-            android:id="@+id/upadateAt"
+            android:id="@+id/nameparts5"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="30dp"
             android:text=""
-            android:textSize="16dp" />
-        <TextView
-            android:padding="3dp"
-            android:textColor="@color/black"
-            android:id="@+id/mainTotal"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text=""
-            android:textSize="16dp" />
+            android:textSize="18dp"
+            android:textColor="@color/black" />
 
         <TextView
-            android:padding="3dp"
-            android:textColor="@color/teal_700"
-            android:id="@+id/partsdetails"
+            android:id="@+id/nameparts6"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Parts Details"
-            android:gravity="end"
-            android:paddingEnd="10dp"
-            android:textSize="18dp"/>
+            android:layout_height="30dp"
+            android:text=""
+            android:textSize="18dp"
+            android:textColor="@color/black" />
+-->
     </LinearLayout>
-
+    <!-- this the navigation view which draws and shows the navigation drawer -->
+    <!-- include the menu created in the menu folder -->
 
 </androidx.cardview.widget.CardView>

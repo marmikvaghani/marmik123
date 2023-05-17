@@ -101,7 +101,7 @@
         <TextView
             android:padding="3dp"
             android:textColor="@color/teal_700"
-            android:id="@+id/partsdetails"
+            android:id="@+id/partd122"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Parts Details"
